@@ -1,0 +1,11 @@
+{
+    "name": "mBank2CSV",
+    "version": "1.0",
+    "description": "Export mBank history to CSV file",
+    "permissions": ["activeTab", "<all_urls>", "downloads"],
+    "browser_action": {
+        "default_title": "Generate CSV",
+        "default_popup": "index.html"
+    },
+    "manifest_version": 2
+  }
